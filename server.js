@@ -71,49 +71,6 @@ function crossroads() {
   })
 }
 
-//       console.log(res)
-//       if (res.choice === "") {
-//         viewAllEmployees()
-//       }
-//       else if (res.choice === "View All Employees By Department") {
-//         viewAllEmployeesByDepartment()
-//       }
-//       else if (res.choice === "View All Employess By Manager") {
-//         viewAllEmployeesByManager()
-//       }
-//       else if (res.choice === "Add Employee") {
-//         addEmployee()
-//       }
-//       else if (res.choice === "Remove Employee") {
-//         removeEmployee()
-//       }
-//       else if (res.choice === "Update Employee Role") {
-//         updateEmployeeRole()
-//       }
-//       else if (res.choice === "Update Employee Manager") {
-//         updateEmployeeManager()
-//       }
-//       else if (res.choice === "Add Role") {
-//         addRole()
-//       }
-//       else if (res.choice === "Remove Role") {
-//         removeRole()
-//       }
-//       else if (res.choice === "View All Departments") {
-//         viewAllDepartments()
-//       }
-//       else if (res.choice === "Add Department") {
-//         addDepartment()
-//       }
-//       else if (res.choice === "Remove Department") {
-//         removeDepartment()
-//       }
-//       else {
-//         end()
-//       }
-//     })
-// }
-
 async function viewAllEmployees() {
       const employees = await db.findAllEmployees();
 
